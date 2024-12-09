@@ -1,0 +1,137 @@
+
+.autenticacaoLogin {background: #8D8B8BD9;}
+    .autenticacaoLogin main {
+}
+        .autenticacaoLogin main .conteudo {max-width: 400px;margin: 0 auto;padding: 0 15px 20px 15px;border: 1px solid #a9a9a9;border-top: none;}
+            .autenticacaoLogin main .conteudo .topoMenu {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+                .autenticacaoLogin main .conteudo .topoMenu .logotipo {background-color: #a4d209;display: block;max-width: 120px;margin-left: auto;box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;transition: all 0.5s ease;}
+                .autenticacaoLogin main .conteudo .topoMenu .logotipo h1{color: #fff;font-family: 'Orbitron';font-size: 20px;margin: 0;padding: 26px 23px;}
+                .autenticacaoLogin main .conteudo .topoMenu .logotipo h1 a:link, .autenticacaoLogin main .conteudo .topoMenu .logotipo h1 a:active, .autenticacaoLogin main .conteudo .topoMenu .logotipo h1 a:visited{color: #fff;font-family: 'Orbitron';font-size: 20px;width: 100%;display: block;}
+
+            .autenticacaoLogin main .conteudo .boxLogin {padding: 210px 0 0 0;}
+                .autenticacaoLogin main .conteudo .boxLogin .botoesAbas {display: flex;justify-content: center;margin-bottom: 40px;}
+                    .autenticacaoLogin main .conteudo .boxLogin .botoesAbas a {
+                        text-decoration: none;
+                        padding: 11px 24px;
+                        font-size: 16px;
+                        border-radius: 20px;
+                        color: #646363;
+                        background-color: #a4d209;
+                        margin: 0 16px;
+                        text-align: center;
+                        font-weight: bold;
+                        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+                        transition: all 0.5s ease;
+                    }
+                    
+                    .autenticacaoLogin main .conteudo .boxLogin .botoesAbas a:hover, .autenticacaoLogin main .conteudo .boxLogin .botoesAbas a.ativo {background-color: #e1e71c;}
+                .autenticacaoLogin main .conteudo .boxLogin .formularioAba {}
+                    .autenticacaoLogin main .conteudo .boxLogin .formularioAba form {}
+                        .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset {}
+                            .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset ul {}
+                                .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset ul.formInputs {
+                                    list-style: none;
+                                    padding: 0;
+                                }
+                                    .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset ul.formInputs li {
+                                        margin-bottom: 20px;
+                                        position: relative;
+                                    }
+                                        .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset ul.formInputs li label {
+                                            display: block;
+                                            font-size: 14px;
+                                            color: #5C5A5A;
+                                            margin-bottom: -25px;
+                                            z-index: 9;
+                                            position: relative;
+                                            padding: 0 10px 0 10px;
+                                        }
+                                        .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset ul.formInputs li input {
+                                            width: 100%;
+                                            padding: 10px;
+                                            border-radius: 10px;
+                                            border: 1px solid #ccc;
+                                            box-sizing: border-box;
+                                            background: #C4C4C4;
+                                            padding-top: 29px;
+                                            z-index: 1;
+                                            color: #fff;
+                                            transition: all 0.5s ease;
+                                        }
+                                        .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset ul.formInputs li input:focus {
+    border: 1px solid #efefef;
+    box-shadow: 1px 11px 5px -7px rgba(179,179,179,0.36);
+    -webkit-box-shadow: 1px 11px 5px -7px rgba(179,179,179,0.36);
+    -moz-box-shadow: 1px 11px 5px -7px rgba(179,179,179,0.36);
+}
+                                        .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset ul.formInputs li .btVerSenha {
+                                            position: absolute;
+                                            right: 15px;
+                                            top: 50%;
+                                            transform: translateY(-50%);
+                                            cursor: pointer;
+                                            color: #666;
+                                            font-size: 24px;
+                                            transition: all 0.5s ease;
+                                        }
+                                        .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset ul.formInputs li .btVerSenha:hover {
+    color: #ffffff;
+}
+                        .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset.botoesAdicionais {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 0 12px;
+                        }
+                            .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset.botoesAdicionais ul {
+                                list-style: none;
+                                display: flex;
+                                padding: 0;
+                                gap: 10px;
+                                width: 100%;
+                                max-width: 100%;
+                            }
+                                .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset.botoesAdicionais ul li {
+                                    color: #fff;
+                                    font-size: 14px;
+                                    position: relative;
+                                    margin-right: auto;
+                                }
+                                .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset.botoesAdicionais ul li .form-check label{color: #efefef;font-weight: 400;cursor: pointer;}
+                                .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset.botoesAdicionais ul li .form-check input[type=checkbox]{background: #C4C4C4;border-radius: 0;border-color: #C4C4C4;cursor: pointer;}
+                                .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset.botoesAdicionais ul li:last-of-type {margin-left: auto;margin-right: initial;}
+                                .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset.botoesAdicionais ul li a {
+                                    text-decoration: none;
+                                    color: #e7e7e7;
+                                    font-weight: 400;
+                                    text-decoration: underline;
+                                    transition: all 0.5s ease;
+                                }
+                                .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset.botoesAdicionais ul li a:hover {
+    color: #fff;
+}
+                        .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset.botoesSubmit {
+                            text-align: center;
+                            margin-top: 20px;
+                        }
+                            .autenticacaoLogin main .conteudo .boxLogin .formularioAba form fieldset.botoesSubmit button {
+                                padding: 10px 40px;
+                                border: none;
+                                border-radius: 20px;
+                                background-color: #a4d209;
+                                color: #646363;
+                                font-size: 20px;
+                                font-weight: 600;
+                                cursor: pointer;
+                                box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+                            }
+
+
+
+                            @media only screen and (min-width: 300px) and (max-width: 640px){
+                                .autenticacaoLogin main .conteudo {border: none;}
+                            }
